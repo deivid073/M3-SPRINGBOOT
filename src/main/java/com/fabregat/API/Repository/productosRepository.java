@@ -4,13 +4,13 @@
  */
 package com.fabregat.API.Repository;
 
-import com.fabregat.API.model.Product;
+import com.fabregat.API.model.Productos;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
  * @author davidfabfer
  */
-public interface ProductRepository extends JpaRepository<Product, Integer> {
+public interface ProductosRepository extends JpaRepository<Productos, Integer> {
     
 }

@@ -14,9 +14,9 @@ import lombok.NoArgsConstructor;
  */
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
-public class Product {
+public class Productos {
   @Id @GeneratedValue
   private Integer id;  
-  private String name;
-  private float price;
+  private String nombre;
+  private float precio;
 }
